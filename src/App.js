@@ -1,7 +1,14 @@
 import logo from './logo.svg';
+import { useEffect, useState } from "react";
 import './App.css';
 
 function App() {
+  // const [title, setTitle] = useState("OHutchyHutch")
+  // //onLoad
+  // useEffect(() => {
+  //   document.title = title;
+  // })
+  document.title = "OHutchyHutch";
   return (
     <div className="App">
       <header className="App-header">
