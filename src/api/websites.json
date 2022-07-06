@@ -1,0 +1,76 @@
+{
+    "websites": [
+        {
+            "name": "Silent Child Music",
+            "imageloc": "silentchild.png",
+            "stack": "Front-End",
+            "tags": [
+                "NextJS",
+                "Vercel",
+                "NodeJS",
+                "TailwindCSS"
+            ],
+            "url": "https://www.silentchildmusic.com/"
+        },
+        {
+            "name": "My Portfolio",
+            "imageloc": "portfolio.png",
+            "stack": "Front-End",
+            "tags": [
+                "ReactJS",
+                "TailwindCSS",
+                "Github Pages"
+            ],
+            "url": "https://ohutchyhutch.com/"
+        },
+        {
+            "name": "Chatters",
+            "imageloc": "chatters.png",
+            "stack": "Full-Stack",
+            "tags": [
+                "Socket.io",
+                "NodeJS",
+                "Express",
+                "Moment",
+                "Heroku"
+            ],
+            "url": "https://ohutchyhutchchatters.herokuapp.com/"
+        },
+        {
+            "name": "Stellar Dev",
+            "imageloc": "stellardev.png",
+            "stack": "Front-End",
+            "tags": [
+                "TailwindCSS",
+                "Github Pages"
+            ],
+            "url": "https://ohutchyhutch.github.io/Diz/"
+        },
+        {
+            "name": "OneStopServers",
+            "imageloc": "onestopservers.png",
+            "stack": "Full-Stack",
+            "tags": [
+                "AWS",
+                "BCrypt",
+                "Bootstrap",
+                "Sequelize",
+                "Postgressql",
+                "Express",
+                "Multer"
+            ],
+            "url": "https://onestopservers.herokuapp.com/"
+        },
+        {
+            "name": "Vendor",
+            "imageloc": "vendor.png",
+            "stack": "Front-End",
+            "tags": [
+                "Bootstrap",
+                "Github Pages",
+                "Bootstrap"
+            ],
+            "url": "https://ohutchyhutch.github.io/Vendor/"
+        }
+    ]
+}

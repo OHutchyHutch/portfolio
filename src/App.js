@@ -1,22 +1,30 @@
-import logo from './logo.svg';
-import { useEffect, useState } from "react";
-import './App.css';
+import './index.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import AnimatedCursor from 'react-animated-cursor';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Navbar from './components/navbar';
+import Works from './pages/Works';
 
-function App() {
-  // const [title, setTitle] = useState("OHutchyHutch")
-  // //onLoad
-  // useEffect(() => {
-  //   document.title = title;
-  // })
-  document.title = "OHutchyHutch";
+export default function App() {
+  document.title = "OHutchyHutch (Under Construction)";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2 className="font-bold text-sky-300">Site is currently being remodeled with React and Tailwind. Hope to see you soon!</h2>
-      </header>
+    <div className='bg-gray-600 min-h-screen min-w-screen flex flex-col select-none'>
+      <AnimatedCursor innerSize={10} outerSize={10} outerScale={2} color='34,211,238' />
+      <div className="container mx-auto flex flex-col flex-grow opacity">
+        <Navbar />
+        <Routes>
+
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/works" element={<Works />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </div>
+
   );
 }
 
-export default App;
