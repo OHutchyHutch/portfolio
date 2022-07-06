@@ -24,8 +24,8 @@ export default function Works() {
     return (
         <div className='flex flex-col justify-center'>
             <div className='flex justify-center w-full mb-12'>
-                <button className={selected === 1 ? 'bg-cyan-500 py-2 px-3 rounded-full mx-3' : 'bg-gray-400 hover:bg-cyan-500 ease-in duration-200 py-2 px-3 rounded-full mx-3'} onClick={() => { selectButton(1) }}>Front-End</button>
-                <button className={selected === 2 ? 'bg-cyan-500 py-2 px-3 rounded-full mx-3' : 'bg-gray-400 hover:bg-cyan-500 ease-in duration-200 py-2 px-3 rounded-full mx-3'} onClick={() => { selectButton(2) }}>Back-End</button>
+                <button className={selected === 1 ? 'bg-cyan-500 py-2 px-3 rounded-lg mx-3' : 'bg-gray-400 hover:bg-cyan-500 ease-in duration-200 py-2 px-3 rounded-lg mx-3'} onClick={() => { selectButton(1) }}>Front-End</button>
+                <button className={selected === 2 ? 'bg-cyan-500 py-2 px-3 rounded-lg mx-3' : 'bg-gray-400 hover:bg-cyan-500 ease-in duration-200 py-2 px-3 rounded-lg mx-3'} onClick={() => { selectButton(2) }}>Back-End</button>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4'>
