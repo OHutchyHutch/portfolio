@@ -4,7 +4,7 @@ import Cloud from '../images/cloud.svg'
 export default function Home() {
     return (
         <div className='flex flex-row flex-grow items-center'>
-            <span className='basis-1/2 text-center text-6xl text-white uppercase font-bold'>
+            <span className='md:basis-1/2 text-center text-6xl text-white uppercase font-bold'>
                 Making the <span className='text-cyan-400'>perfect</span> website for the <span className='text-cyan-400'>perfect</span> price.
             </span>
             <div className='md:basis-1/2 invisible md:visible self-stretch'>

@@ -66,7 +66,7 @@ export default function Works() {
                                             View Website
                                         </button>
                                     </div>
-                                    <div id="tags" className="flex flex-row justify-center">
+                                    <div id="tags" className="flex flex-row justify-center flex-wrap">
                                         {content.websites[website].tags.map((item, i) => (
                                             <div className="bg-gray-400 m-1 px-2 py-1 rounded-md hover:bg-cyan-500 hover:scale-105 ease-in duration-200" key={item}>{item}</div>
                                         ))}
