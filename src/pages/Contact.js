@@ -1,5 +1,5 @@
-export default function Contact() {
 
+export default function Contact() {
     return (
         <div className='flex flex-col justify-center text-center'>
             <span className="text-slate-300 text-6xl mt-32">Hello, I am still being made! Come back soon!</span>

@@ -7,8 +7,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Navbar from './components/navbar';
 import Works from './pages/Works';
-
 export default function App() {
+
   document.title = "OHutchyHutch (Under Construction)";
   return (
     <div className='bg-gray-600 min-h-screen min-w-screen flex flex-col select-none'>
@@ -16,15 +16,13 @@ export default function App() {
       <div className="container mx-auto flex flex-col flex-grow opacity">
         <Navbar />
         <Routes>
-
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/works" element={<Works />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </div>
-
   );
 }
 
