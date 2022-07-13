@@ -46,5 +46,5 @@ export default function Typewriter({ srcStringArr, timeoutValue }) {
         }
     }, [content, isReversed])
 
-    return <span className="text-cyan-400">{content}</span>
+    return <span className="text-med-accent">{content}</span>
 }

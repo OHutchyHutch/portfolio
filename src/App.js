@@ -11,7 +11,7 @@ export default function App() {
 
   document.title = "OHutchyHutch (Under Construction)";
   return (
-    <div className='bg-gray-600 min-h-screen min-w-screen flex flex-col select-none'>
+    <div className='bg-slate-800 min-h-screen min-w-screen flex flex-col select-none'>
       <AnimatedCursor innerSize={10} outerSize={10} outerScale={2} color='34,211,238' />
       <div className="container mx-auto flex flex-col flex-grow opacity">
         <Navbar />

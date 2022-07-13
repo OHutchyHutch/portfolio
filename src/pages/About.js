@@ -5,7 +5,7 @@ import Typewriter from "../components/typewriter";
 export default function About() {
     return (
         <div className='flex justify-center flex-grow items-center'>
-            <span className='basis-1/2 text-center text-3xl md:text-6xl text-white uppercase font-bold'>
+            <span className='basis-1/2 text-center text-3xl md:text-6xl text-light uppercase font-bold'>
                 I AM <Typewriter srcStringArr={['Owen', 'A developer', 'outgoing', 'always learning', 'a friend']} timeoutValue={200} />
                 <br />
                 <span className='text-2xl md:text-3xl leading-tight tracking-tight normal-case font-normal'>
