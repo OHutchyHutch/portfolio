@@ -36,7 +36,7 @@ export default function Works() {
                         return (
                             <div className='bg-med h-64 p-2 rounded hover:scale-105 ease-in duration-200 flex flex-col' onClick={() => { openInfo(i) }} key={i}>
                                 <div className='bg-med-accent h-3/4 rounded-sm'>
-                                    <img src={'../images/sites/' + item.imageloc} className="object-fill w-full h-full" alt={item.name + " image"} />
+                                    <img src={'/images/sites/' + item.imageloc} className="object-fill w-full h-full" alt={item.name + " image"} />
                                 </div>
                                 <div className='flex flex-col border-l-4 mt-1 pl-2 border-med-accent'>
                                     <span className='text-xl tracking-wider font-bold text-light'>{item.name}</span>

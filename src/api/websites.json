@@ -1,6 +1,18 @@
 {
     "websites": [
         {
+            "name": "Fingerprint Demo",
+            "imageloc": "fingerprint.png",
+            "stack": "Front-End",
+            "tags": [
+                "Fingerprint",
+                "React",
+                "Tailwind",
+                "Vercel"
+            ],
+            "url": "https://fingerprintdemo.vercel.app/"
+        },
+        {
             "name": "Silent Child Music",
             "imageloc": "silentchild.png",
             "stack": "Front-End",
@@ -70,18 +82,6 @@
                 "Github Pages"
             ],
             "url": "https://ohutchyhutch.github.io/Vendor/"
-        },
-        {
-            "name": "Fingerprint Demo",
-            "imageloc": "fingerprint.png",
-            "stack": "Front-End",
-            "tags": [
-                "Fingerprint",
-                "React",
-                "Tailwind",
-                "Vercel"
-            ],
-            "url": "https://fingerprintdemo.vercel.app/"
         }
     ]
 }
