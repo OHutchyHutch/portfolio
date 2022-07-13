@@ -6,9 +6,9 @@
             "stack": "Front-End",
             "tags": [
                 "NextJS",
-                "Vercel",
                 "NodeJS",
-                "TailwindCSS"
+                "TailwindCSS",
+                "Vercel"
             ],
             "url": "https://www.silentchildmusic.com/"
         },
@@ -17,8 +17,8 @@
             "imageloc": "portfolio.png",
             "stack": "Front-End",
             "tags": [
-                "ReactJS",
-                "TailwindCSS",
+                "React",
+                "Tailwind",
                 "Github Pages"
             ],
             "url": "https://ohutchyhutch.com/"
@@ -28,11 +28,11 @@
             "imageloc": "chatters.png",
             "stack": "Full-Stack",
             "tags": [
-                "Socket.io",
-                "NodeJS",
                 "Express",
+                "Heroku",
                 "Moment",
-                "Heroku"
+                "Node",
+                "Socket.io"
             ],
             "url": "https://ohutchyhutchchatters.herokuapp.com/"
         },
@@ -41,7 +41,7 @@
             "imageloc": "stellardev.png",
             "stack": "Front-End",
             "tags": [
-                "TailwindCSS",
+                "Tailwind",
                 "Github Pages"
             ],
             "url": "https://ohutchyhutch.github.io/Diz/"
@@ -54,10 +54,10 @@
                 "AWS",
                 "BCrypt",
                 "Bootstrap",
-                "Sequelize",
-                "Postgressql",
                 "Express",
-                "Multer"
+                "Multer",
+                "Sequelize",
+                "Postgressql"
             ],
             "url": "https://onestopservers.herokuapp.com/"
         },
@@ -70,6 +70,18 @@
                 "Github Pages"
             ],
             "url": "https://ohutchyhutch.github.io/Vendor/"
+        },
+        {
+            "name": "Fingerprint Demo",
+            "imageloc": "fingerprint.png",
+            "stack": "Front-End",
+            "tags": [
+                "Fingerprint",
+                "React",
+                "Tailwind",
+                "Vercel"
+            ],
+            "url": "https://fingerprintdemo.vercel.app/"
         }
     ]
 }
