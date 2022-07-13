@@ -3,3 +3,4 @@
 ## Utilizes:
   * React
   * Tailwind
+  * Vercel
