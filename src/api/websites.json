@@ -17,9 +17,8 @@
             "imageloc": "silentchild.png",
             "stack": "Front-End",
             "tags": [
-                "NextJS",
-                "NodeJS",
-                "TailwindCSS",
+                "Next",
+                "Tailwind",
                 "Vercel"
             ],
             "url": "https://www.silentchildmusic.com/"

@@ -62,7 +62,7 @@ export default function Works() {
                                         {content.websites[website].name}
                                     </Dialog.Title>
                                     <div className="flex my-6 justify-center">
-                                        <button type="button" className="inline-flex justify-center rounded-md border border-transparent bg-med-accent px-8 py-4 text-sm font-medium text-dark hover:bg-med ease-in duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-med focus-visible:ring-offset-2" onClick={handleLinkClick}>
+                                        <button type="button" className="inline-flex justify-center rounded-md border border-transparent bg-med-accent px-8 py-4 text-xl font-medium text-dark hover:bg-med ease-in duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-med focus-visible:ring-offset-2" onClick={handleLinkClick}>
                                             View Website
                                         </button>
                                     </div>
@@ -72,7 +72,7 @@ export default function Works() {
                                         ))}
                                     </div>
                                     <div className="mt-12 flex justify-end">
-                                        <button type="button" className="inline-flex justify-center rounded-md border border-transparent bg-med-accent px-4 py-2 text-sm font-medium text-dark hover:bg-med ease-in duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-med focus-visible:ring-offset-2" onClick={() => { setIsOpen(false) }}>
+                                        <button type="button" className="inline-flex justify-center rounded-md border border-transparent bg-med-accent px-4 py-2 text-md font-medium text-dark hover:bg-med ease-in duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-med focus-visible:ring-offset-2" onClick={() => { setIsOpen(false) }}>
                                             Got it, thanks!
                                         </button>
                                     </div>
