@@ -22,10 +22,10 @@ export default function Works() {
         window.open(`${content.websites[website].url}`);
     }
     return (
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col justify-center mt-16 scale-110'>
             <div className='flex justify-center w-full mb-12 text-white-light'>
-                <button className={selected === 1 ? 'bg-med py-2 px-3 rounded-lg mx-3' : 'bg-med-accent hover:bg-med text-dark hover:text-light ease-in duration-200 py-2 px-3 rounded-lg mx-3'} onClick={() => { selectButton(1) }}>Front-End</button>
-                <button className={selected === 2 ? 'bg-med py-2 px-3 rounded-lg mx-3' : 'bg-med-accent hover:bg-med text-dark hover:text-light ease-in duration-200 py-2 px-3 rounded-lg mx-3'} onClick={() => { selectButton(2) }}>Back-End</button>
+                <button className={selected === 1 ? 'bg-slate-900 py-2 px-3 rounded-lg mx-3' : 'bg-med-accent hover:bg-slate-900 text-dark hover:text-light ease-in duration-200 py-2 px-3 rounded-lg mx-3'} onClick={() => { selectButton(1) }}>Front-End</button>
+                <button className={selected === 2 ? 'bg-med py-2 px-3 rounded-lg mx-3' : 'bg-med-accent hover:bg-slate-900 text-dark hover:text-light ease-in duration-200 py-2 px-3 rounded-lg mx-3'} onClick={() => { selectButton(2) }}>Back-End</button>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4'>
@@ -34,12 +34,12 @@ export default function Works() {
                     if (selected === 2 && item.stack !== "Back-End" && item.stack !== "Full-Stack") return "";
                     else {
                         return (
-                            <div className='bg-med h-64 p-2 rounded hover:scale-105 ease-in duration-200 flex flex-col' onClick={() => { openInfo(i) }} key={i}>
-                                <div className='bg-med-accent h-3/4 rounded-sm'>
+                            <div className='bg-slate-900 h-64 p-2 rounded hover:scale-105 ease-in duration-200 flex flex-col' onClick={() => { openInfo(i) }} key={i}>
+                                <div className='bg-med h-3/4 rounded-sm'>
                                     <img src={'/images/sites/' + item.imageloc} className="object-fill w-full h-full" alt={item.name + " image"} />
                                 </div>
                                 <div className='flex flex-col border-l-4 mt-1 pl-2 border-med-accent'>
-                                    <span className='text-xl tracking-wider font-bold text-light'>{item.name}</span>
+                                    <span className='text-xl tracking-wider font-bold text-med-accent'>{item.name}</span>
                                     <span className='tracking-tighter text-light-accent font-semibold'>{item.stack}</span>
                                 </div>
                             </div>
